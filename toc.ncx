@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns:mbp="http://mobipocket.com/ns/mbp" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-GB">
+    <head>
+        <meta content="bookfere_2020-10-20" name="dtb:uid" />
+        <meta content="2" name="dtb:depth" />
+        <meta content="0" name="dtb:totalPageCount" />
+        <meta content="0" name="dtb:maxPageNumber" />
+    </head>
+    <!-- 标题 -->
+    <docTitle>
+        <text>书伴期刊模板（2020优化版）</text>
+    </docTitle>
+    <!-- 作者 -->
+    <docAuthor>
+        <text>书伴（bookfere.com）</text>
+    </docAuthor>
+    <!-- 导航 -->
+    <navMap>
+        <navPoint playOrder="0" class="periodical" id="periodical">
+            <!-- 网格模式头部 LOGO 图片 -->
+            <mbp:meta-img src="image/masthead.gif" name="mastheadImage" />
+
+            <!-- 目录 -->
+            <navLabel>
+                <text>目录</text>
+            </navLabel>
+            <content src="html/toc.html" />
+
+            <!-- 分类 1 -->
+            <navPoint playOrder="1" class="section" id="Weekly">
+                <!-- 分类标题 -->
+                <navLabel>
+                    <text>每周一书</text>
+                </navLabel>
+                <!-- 网格模式第一篇文章链接页面 -->
+                <content src="html/post_1.html#section1" />
+                <!-- 文章 1 -->
+                <navPoint playOrder="2" class="article" id="item-001">
+                    <!-- 文章标题 -->
+                    <navLabel>
+                        <text>《自由选择》地球人不可不读的书</text>
+                    </navLabel>
+                    <!-- 文章摘要 -->
+                    <content src="html/post_1.html#title1" />
+                    <!-- 文章摘要 -->
+                    <mbp:meta name="description">活在世上，我们经常在抱怨好人没好报，坏人没坏下场，也许真正应该检讨的是我们，我们有没有珍惜好人？认出坏人！在这方面，《自由选择》可以给我们很大的帮助。</mbp:meta>
+                    <!-- 文章作者 -->
+                    <mbp:meta name="author">书伴</mbp:meta>
+                </navPoint>
+                <!-- 文章 2 -->
+                <navPoint playOrder="3" class="article" id="item-002">
+                    <navLabel>
+                        <text>《无后为大》不只是生与不生的问题</text>
+                    </navLabel>
+                    <content src="html/post_2.html#title2" />
+                    <mbp:meta name="description">这本书在豆瓣读书中遭到删除。你可能会认为这是一本探讨关于生不生孩子的话题，其实不然，作者的主要着墨之处在于隐藏在生育背后的那些我们不可能用“难得糊涂”就能搪塞过去的问题。</mbp:meta>
+                    <mbp:meta name="author">书伴</mbp:meta>
+                </navPoint>
+                <!-- 文章 3 -->
+                <navPoint playOrder="4" class="article" id="item-003">
+                    <navLabel>
+                        <text>创新是什么？创新就是《从 0 到 1》</text>
+                    </navLabel>
+                    <content src="html/post_3.html#title3" />
+                    <mbp:meta name="description">这是一本畅销书。如果你是朝着“商业与未来的秘密”读这本书，可能会让你小有失望，但如果只是把它看作“Notes on Starups”，那这本书的一些另类观点一定能给你带去很多启发。</mbp:meta>
+                    <mbp:meta name="author">书伴</mbp:meta>
+                </navPoint>
+            </navPoint>
+
+            <!-- 分类 2 -->
+            <navPoint playOrder="5" class="section" id="News">
+                <navLabel>
+                    <text>新闻速递</text>
+                </navLabel>
+                <content src="html/post_4.html#section2" />
+                <navPoint playOrder="6" class="article" id="item-004">
+                    <navLabel>
+                        <text>亚马逊已经成为美国电子书大战的赢家？</text>
+                    </navLabel>
+                    <content src="html/post_4.html#title4" />
+                    <mbp:meta name="description">亚马逊的市场份额的占有率可能比以前所认为的要高得多，全美 74% 的电子书都是通过 Kindle 商店销售的。其余的电子书竞争对手持有的市场份额如此之小，很难给 Kindle 商店带来什么真正的竞争。</mbp:meta>
+                    <mbp:meta name="author">书伴</mbp:meta>
+                </navPoint>
+                <navPoint playOrder="7" class="article" id="item-005">
+                    <navLabel>
+                        <text>沟通新渠道，亚马逊 Kindle 客服入驻微信</text>
+                    </navLabel>
+                    <content src="html/post_5.html#title5" />
+                    <!-- 无摘要或作者可省略 -->
+                </navPoint>
+                <navPoint playOrder="8" class="article" id="item-006">
+                    <navLabel>
+                        <text>给 Kindle 一个家？亚马逊或将开设一家实体书店</text>
+                    </navLabel>
+                    <content src="html/post_6.html#title6" />
+                    <mbp:meta name="description">电商巨头亚马逊正计划在美国西雅图 University Village 购物中心开设一家实体书店。如果该消息属实，那将意味着这家一直在线上生存并达到繁荣的互联网巨头终于将触角伸到了线下。</mbp:meta>
+                    <mbp:meta name="author">书伴</mbp:meta>
+                </navPoint>
+            </navPoint>
+
+            <!-- 分类 3 -->
+            <navPoint playOrder="9" class="section" id="Skill">
+                <navLabel>
+                    <text>使用技巧</text>
+                </navLabel>
+                <content src="html/post_7.html#section3" />
+                <navPoint playOrder="10" class="article" id="item-007">
+                    <navLabel>
+                        <text>为什么 AZW3 电子书查字典取词时会选中一整句</text>
+                    </navLabel>
+                    <content src="html/post_7.html#title7" />
+                    <mbp:meta name="description">使用 Calibre 把一本中文电子书转换成 AZW3 格式并拷贝到 Kindle 中，查询字典时想要选取某个字词，却只能选中一整句。这是怎么回事儿？请看本文的研究分析，以及最后提供的解决方法。</mbp:meta>
+                    <mbp:meta name="author">书伴</mbp:meta>
+                </navPoint>
+                <navPoint playOrder="11" class="article" id="item-008">
+                    <navLabel>
+                        <text>小技巧之横屏阅读 PDF 文档</text>
+                    </navLabel>
+                    <content src="html/post_8.html#title8" />
+                    <mbp:meta name="description">虽然让一个 6 吋屏幕显示大出其尺寸一倍多的 PDF 页面有些强人所难，但 Kindle 还是尽可能结合自身的硬性限制给出了一个比较不错的解决方案——横屏阅读。</mbp:meta>
+                    <mbp:meta name="author">书伴</mbp:meta>
+                </navPoint>
+            </navPoint>
+        </navPoint>
+    </navMap>
+</ncx>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="bookfere_2020-10-20">
+<!-- 元数据 -->
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc-metadata>
+        <dc:title>书伴期刊模板（2020优化版）</dc:title> <!-- 名称 -->
+        <dc:language>zh-CN</dc:language> <!-- 语言 -->
+        <dc:Identifier id="uid">02FFA518EB</dc:Identifier> <!-- 唯一标识符 -->
+        <dc:creator>书伴</dc:creator> <!-- 创建人 -->
+        <dc:publisher>bookfere.com</dc:publisher> <!-- 发布商 -->
+        <dc:subject>杂志</dc:subject> <!-- 类型标签 -->
+        <dc:date>2020-10-20</dc:date> <!-- 发布日期 -->
+        <dc:description>书伴（bookfere.com）的建立是为解决和 Kindle 相关的问题，帮助您更便捷、深入地使用你手中的 kindle 阅读器，让读书成为生命的一部分，让灵魂永远行走在路上。</dc:description> <!-- 简介 -->
+        <dc:rights>Kindle Edition, @2020 Bookfere.com</dc> <!-- 版权声明 -->
+    </dc-metadata>
+    <x-metadata>
+        <output content-type="application/x-mobipocket-subscription-magazine" encoding="utf-8"/>
+        <EmbeddedCover>image/cover.jpg</EmbeddedCover><!-- 封面图片 -->
+    </x-metadata>
+</metadata>
+<!-- 资源列表 -->
+<manifest>
+    <!-- 目录资源 -->
+    <item href="html/toc.html" media-type="application/xhtml+xml" id="toc"/> <!-- HTML 目录 -->
+    <item href="toc.ncx" media-type="application/x-dtbncx+xml" id="ncx"/> <!-- NCX 目录 -->
+    <!-- 内容资源 -->
+    <item href="html/post_1.html" media-type="application/xhtml+xml" id="post_1"/>
+    <item href="html/post_2.html" media-type="application/xhtml+xml" id="post_2"/>
+    <item href="html/post_3.html" media-type="application/xhtml+xml" id="post_3"/>
+    <item href="html/post_4.html" media-type="application/xhtml+xml" id="post_4"/>
+    <item href="html/post_5.html" media-type="application/xhtml+xml" id="post_5"/>
+    <item href="html/post_6.html" media-type="application/xhtml+xml" id="post_6"/>
+    <item href="html/post_7.html" media-type="application/xhtml+xml" id="post_7"/>
+    <item href="html/post_8.html" media-type="application/xhtml+xml" id="post_8"/>
+    <!-- 图片资源 -->
+    <item href="image/thumb_1.jpg" media-type="image/jpeg" id="thumb_1"/>
+    <item href="image/thumb_2.jpg" media-type="image/jpeg" id="thumb_2"/>
+    <item href="image/thumb_3.jpg" media-type="image/jpeg" id="thumb_3"/>
+    <item href="image/thumb_4.jpg" media-type="image/jpeg" id="thumb_4"/>
+    <item href="image/thumb_5.jpg" media-type="image/jpeg" id="thumb_5"/>
+    <item href="image/thumb_6.jpg" media-type="image/jpeg" id="thumb_6"/>
+    <item href="image/thumb_7.jpg" media-type="image/jpeg" id="thumb_7"/>
+    <item href="image/thumb_8.png" media-type="image/png" id="thumb_8"/>
+    <item href="image/thumb_9.png" media-type="image/png" id="thumb_9"/>
+    <!-- 其他资源 -->
+    <item href="image/cover.jpg" media-type="image/jpeg" id="cover_img" /> <!-- 封面 -->
+    <item href="image/masthead.gif" media-type="image/gif" id="masthead"/> <!-- 标题图片 -->
+</manifest>
+<!-- 文件骨架 -->
+<spine toc="ncx">
+    <itemref idref="toc"/>
+    <itemref idref="post_1"/>
+    <itemref idref="post_2"/>
+    <itemref idref="post_3"/>
+    <itemref idref="post_4"/>
+    <itemref idref="post_5"/>
+    <itemref idref="post_6"/>
+    <itemref idref="post_7"/>
+    <itemref idref="post_8"/>
+</spine>
+<!-- 页面指引 -->
+<guide>
+    <reference href="html/toc.html" type="toc" title="Table of Contents" />
+    <reference href="html/post_1.html" type="text" title="《自由选择》地球人不可不读的书"/>
+</guide>
+</package>
